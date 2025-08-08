@@ -1,46 +1,53 @@
-# 🚀 Demo: Lambda Functions with STL in Modern C++
+# 🚀 Demo: Lambda Functions with STL in Modern C++17
 
-This project demonstrates the power and elegance of **lambda functions** combined with the **Standard Template Library (STL)** in C++ to manipulate collections of data efficiently and cleanly. The program manages a list of products and performs various operations such as printing, sorting, searching, filtering, and accumulating values — all using modern C++ idioms.
+This project demonstrates the power and expressiveness of **lambda functions** combined with the **Standard Template Library (STL)** in **C++17** to manipulate collections of data efficiently and clearly. The program manages a list of products and performs common operations such as printing, sorting, searching, filtering, and accumulating values using modern C++17 features.
 
 ---
 
 ## 📖 Overview
 
-The program defines a simple `Product` struct with four fields: ID, name, price, and category. It then performs several tasks using STL algorithms and lambda expressions:
+The program defines a simple `Product` struct containing an ID, name, price, and category. It then demonstrates several operations using STL algorithms and lambda expressions enhanced by C++17 capabilities:
 
 - Print the original list of products.
-- Sort the products by price in ascending order.
-- Find the first product belonging to the `"Monitors"` category.
+- Sort products by price in ascending order.
+- Find the first product in the `"Monitors"` category.
 - Filter products priced above $500 (expensive products).
 - Filter products priced below $500 (cheap products).
 - Calculate the total value of all products in the `"Peripherals"` category.
 
-The goal is to showcase how lambdas simplify and enhance the readability of common operations on containers.
+---
+
+## 🆕 C++17 Enhancements Used
+
+- **Structured bindings** for cleaner unpacking (if desired).
+- **`if` and `switch` with initializer** (used optionally in searches).
+- More concise lambda captures with `auto` parameters (generic lambdas).
+- Improved `std::string_view` (not mandatory here but available).
+
+This example mainly focuses on idiomatic STL + lambda usage but can easily integrate C++17 features for cleaner code.
 
 ---
 
 ## 🛠️ Requirements
 
-- A C++ compiler with support for **C++11** or newer standards (e.g., GCC, Clang, MSVC).
-- Basic knowledge of C++ STL containers and algorithms.
-- Familiarity with lambda expressions (anonymous functions).
+- A C++17 compliant compiler (e.g., GCC 7+, Clang 5+, MSVC 2017+).
+- Basic knowledge of C++ STL and lambda expressions.
 
 ---
 
-## 💻 How to Build and Run
+## 💻 Build & Run
 
-1. Save the code to a file named `main.cpp`.
-2. Compile with your preferred C++ compiler using C++11 or higher standard. For example:
+Save the code in `main.cpp`, then compile with C++17:
 
 ```bash
-g++ -std=c++11 -o lambda_demo main.cpp
+g++ -std=c++17 -o lambda_demo main.cpp
 ./lambda_demo
 ```
 
 ---
 
-## 🖼️ Image
+## 🖼️ OUTPUT
 
 <div align="center">
-<img width="515" height="530" alt="image" src="https://github.com/user-attachments/assets/55f550b8-8be2-4a1b-b9e0-9d051160b8d7" />
+<img width="507" height="530" alt="image" src="https://github.com/user-attachments/assets/e5496531-a58a-4b54-8fe7-7216d6cde286" />
 </div>
