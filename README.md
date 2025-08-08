@@ -36,3 +36,11 @@ The goal is to showcase how lambdas simplify and enhance the readability of comm
 g++ -std=c++11 -o lambda_demo main.cpp
 ./lambda_demo
 ```
+
+---
+
+## 🖼️ Image
+
+<div align="center">
+<img width="515" height="530" alt="image" src="https://github.com/user-attachments/assets/55f550b8-8be2-4a1b-b9e0-9d051160b8d7" />
+</div>
