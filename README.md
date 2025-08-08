@@ -37,10 +37,10 @@ This example mainly focuses on idiomatic STL + lambda usage but can easily integ
 
 ## 💻 Build & Run
 
-Save the code in `main.cpp`, then compile with C++17:
+Save the code in `Lambda_Functions_Demo.cpp`, then compile with C++17:
 
 ```bash
-g++ -std=c++17 -o lambda_demo main.cpp
+g++ -std=c++17 -o lambda_demo Lambda_Functions_Demo.cpp
 ./lambda_demo
 ```
 
@@ -49,5 +49,5 @@ g++ -std=c++17 -o lambda_demo main.cpp
 ## 🖼️ OUTPUT
 
 <div align="center">
-<img width="507" height="530" alt="image" src="https://github.com/user-attachments/assets/e5496531-a58a-4b54-8fe7-7216d6cde286" />
+  <img width="507" height="530" alt="image" src="https://github.com/user-attachments/assets/e5496531-a58a-4b54-8fe7-7216d6cde286" />
 </div>
